@@ -14,8 +14,8 @@ add('writable_dirs', []);
 // Hosts
 
 host('185.151.48.42')
-    ->set('remote_user', 'deployer')
-    ->set('deploy_path', '~/deploy_test');
+    ->set('remote_user', 'id_rsa_dms')
+    ->set('deploy_path', '/deploy_test');
 
 // Hooks
 
